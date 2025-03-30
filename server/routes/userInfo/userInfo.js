@@ -2,7 +2,7 @@
 import axios from 'axios';
 import fs from 'fs';
 
-const API_KEY = fs.readFileSync('../../api.txt', 'utf8').trim();
+const API_KEY = fs.readFileSync('api.txt', 'utf8').trim();
 async function getMapleUserInfo(req, res) {
     
     let characterName = req.query.id;

@@ -1,0 +1,9 @@
+/* src/components/Content/Footer.module.css */
+
+.footerContainer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    flex-shrink: 0;
+    /* 푸터 영역의 높이 고정 */
+}  

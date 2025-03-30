@@ -1,0 +1,8 @@
+<svg width="100%" height="100%" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <rect x="5" y="5" width="390" height="300" rx="15" ry="15"
+          fill="none" stroke="black" stroke-width="3"
+          stroke-dasharray="245 160" stroke-dashoffset="380">
+        <animate attributeName="stroke-dashoffset" from="380" to="0" dur="2.5s" 
+                 repeatCount="indefinite" keyTimes="0; 1" calcMode="linear"/>
+    </rect>
+</svg>

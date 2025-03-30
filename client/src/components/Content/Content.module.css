@@ -1,0 +1,18 @@
+/* src/components/Content/Content.module.css */
+
+.contentContainer {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: darkgrey;
+  }
+    
+  .userContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%; 
+  }

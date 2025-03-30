@@ -1,0 +1,30 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "공부하기싫다",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHhw/node-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MHhw/node-example/issues"
+  },
+  "homepage": "https://github.com/MHhw/node-example#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.9",
+    "npm": "^11.2.0"
+  }
+}

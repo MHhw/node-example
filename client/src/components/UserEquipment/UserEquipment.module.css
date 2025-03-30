@@ -1,0 +1,68 @@
+/* src/components/Content/UserEquipment.module.css */
+
+.userEquipment {
+    width: 580px;
+    height: 400px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+.equipmentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.equipmentTitle {
+    margin: 0;
+    padding: 10px 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.equipmentGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 55px);
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+}
+
+.etcGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.symbolGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 55px);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.petGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 55px);
+    grid-template-rows: repeat(1, auto);
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid;
+}
+
+.noBorder {
+    border: 0;
+}
+
+.itemImage {
+    width: 80%;
+    height: 80%;
+    object-fit: none;
+}
